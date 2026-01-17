@@ -65,14 +65,14 @@
 
 点击下方按钮一键部署到 Vercel：
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fportfolio&env=API_KEY&envDescription=Required%20API%20keys%20for%20the%20application)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FWpenga%2Fperson_web)
 
 ### 本地开发
 
 1. 克隆仓库
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio/wpenga-portfolio
+   git clone https://github.com/Wpenga/person_web.git
+   cd person_web/wpenga-portfolio
    ```
 
 2. 安装依赖
@@ -104,9 +104,7 @@ portfolio/
 
 ## 联系信息
 
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **LinkedIn**: [yourname](https://linkedin.com/in/yourname)
-- **Email**: your.email@example.com
+- **GitHub**: [@Wpenga](https://github.com/Wpenga)
 
 ## 许可证
 
