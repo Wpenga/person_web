@@ -1,18 +1,17 @@
 {
   "version": 2,
   "name": "personal-portfolio",
-  "scope": "yourusername",
+  "scope": "wpenga",
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "outputDirectory": ".next",
   "framework": "nextjs",
-  "rootDirectory": "wpenga-portfolio",
   "env": {
     "NODE_ENV": "production"
   },
   "regions": ["hkg1"],
-  "alias": ["yourname.vercel.app"],
+  "alias": ["wpenga.vercel.app"],
   "rewrites": [
     {
       "source": "/(.*)",
