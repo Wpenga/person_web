@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  staticPageGenerationTimeout: 120,
 };
 
 module.exports = nextConfig;
