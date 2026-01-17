@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wpenga | 个人作品集 - 全栈开发 & 嵌入式专家</title>
+    <meta name="description" content="Wpenga 的个人作品集，展示嵌入式开发、AI集成应用及全栈开发项目。">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Wpenga<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero">首页</a></li>
+                <li><a href="#projects">项目展示</a></li>
+                <li><a href="#skills">核心技能</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+        <div class="container hero-content">
+            <h1 class="fade-in">创新驱动<br><span class="gradient-text">嵌入式 & AI</span> 开发</h1>
+            <p class="hero-subtitle delay-1">致力于构建高效、智能的軟硬结合解决方案。从 ESP32 底层架构到 React 前端 AI 集成。</p>
+            <div class="hero-btns delay-2">
+                <a href="#projects" class="btn btn-primary">查看项目</a>
+                <a href="#contact" class="btn btn-outline">联系交流</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">精选作品</h2>
+                <p class="section-subtitle">展示我在底层协议开发与上层智能应用中的探索</p>
+            </div>
+
+            <div class="project-grid">
+                <!-- Project 1: ESP32 -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="esp32_monitor_preview.png" alt="ESP32 多串口监控系统">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Wpenga/esp32-S318" target="_blank" class="project-link">
+                                <i data-lucide="github"></i> 源码
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>FreeRTOS</span>
+                            <span>Embedded</span>
+                        </div>
+                        <h3>ESP32 多串口数据监控系统</h3>
+                        <p>基于 FreeRTOS 的高并发监控系统。支持多任务并行处理电池监测与网络状态，实现高效 JSON 解析与数据转发。</p>
+                        <ul class="project-features">
+                            <li><i data-lucide="check-circle"></i> 电池 0x55 0xAA 帧协议解析</li>
+                            <li><i data-lucide="check-circle"></i> 多任务并发控制 (IO2/Serial)</li>
+                            <li><i data-lucide="check-circle"></i> cJSON 动态网络信号处理</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 2: AI Schedule -->
+                <div class="project-card fade-in delay-1">
+                    <div class="project-image">
+                        <img src="ai_schedule_app_preview.png" alt="智能日程记录系统">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Wpenga/trae_friend_person" target="_blank" class="project-link">
+                                <i data-lucide="github"></i> 源码
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>React 19</span>
+                            <span>ModelScope</span>
+                            <span>Tailwind</span>
+                        </div>
+                        <h3>智能日程记录表单系统</h3>
+                        <p>融合语音识别与 AI 分析的现代化个人工具。通过 ModelScope (Qwen) API 自动分析语义并生成精准日程。</p>
+                        <ul class="project-features">
+                            <li><i data-lucide="check-circle"></i> Web Speech API 实时录音</li>
+                            <li><i data-lucide="check-circle"></i> AI 智能分类与优先级评估</li>
+                            <li><i data-lucide="check-circle"></i> 响应式响应 & 深色主题切换</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container glass-container">
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h4>嵌入式领域</h4>
+                    <div class="skill-items">
+                        <div class="skill-item">PlatformIO</div>
+                        <div class="skill-item">ESP32 / MCU</div>
+                        <div class="skill-item">RTOS 多线程</div>
+                        <div class="skill-item">串口协议栈</div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h4>全栈 & AI</h4>
+                    <div class="skill-items">
+                        <div class="skill-item">React / Vite</div>
+                        <div class="skill-item">TypeScript</div>
+                        <div class="skill-item">LLM 集成</div>
+                        <div class="skill-item">Tailwind CSS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-cta">
+                    <h2>准备好开始合作了吗？</h2>
+                    <p>无论是嵌入式系统设计还是现代 Web 应用，我都能为您提供专业支持。</p>
+                    <a href="mailto:wpenga@example.com" class="btn btn-primary">发送邮件</a>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/Wpenga" target="_blank"><i data-lucide="github"></i></a>
+                    <a href="#"><i data-lucide="linkedin"></i></a>
+                    <a href="#"><i data-lucide="mail"></i></a>
+                </div>
+            </div>
+            <p class="copyright">© 2026 Wpenga. Built with Passion & Tech.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Smooth scroll for anchors
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
