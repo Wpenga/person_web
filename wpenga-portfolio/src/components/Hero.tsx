@@ -24,7 +24,7 @@ export default function Hero() {
           <span className="gradient-text">嵌入式 & AI</span> 开发
         </h1>
         <p className="hero-subtitle fade-in delay-1 text-lg md:text-xl text-[#A0A0C0] max-w-2xl mx-auto mb-10">
-          致力于构建高效、智能的软硬结合解决方案。从 ESP32 底层架构到 React 前端 AI 集成。
+          致力于构建高效、智能的软硬结合解决方案。从单片机底层架构到串口屏UI开发。
         </p>
         <div className="fade-in delay-2 flex flex-col sm:flex-row gap-4 justify-center">
           <button

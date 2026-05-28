@@ -65,7 +65,7 @@ export default function Navbar() {
             <Linkedin size={20} />
           </a>
           <a
-            href="mailto:wpenga@example.com"
+            href="mailto:wzpenga@163.com"
             className="text-[#A0A0C0] hover:text-[#00FFFF] transition-colors"
           >
             <Mail size={20} />
@@ -105,7 +105,7 @@ export default function Navbar() {
               <a href="#" className="text-[#A0A0C0] hover:text-[#00FFFF] transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:wpenga@example.com" className="text-[#A0A0C0] hover:text-[#00FFFF] transition-colors">
+              <a href="mailto:wzpenga@163.com" className="text-[#A0A0C0] hover:text-[#00FFFF] transition-colors">
                 <Mail size={20} />
               </a>
             </div>

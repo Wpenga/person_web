@@ -2,11 +2,11 @@ export default function Skills() {
   const skillGroups = [
     {
       title: '嵌入式领域',
-      skills: ['PlatformIO', 'ESP32 / MCU', 'RTOS 多线程', '串口协议栈'],
+      skills: ['PlatformIO', 'ESP32 / STM32', 'RTOS 多线程', '串口协议栈'],
     },
     {
       title: '全栈 & AI',
-      skills: ['React / Vite', 'TypeScript', 'LLM 集成', 'Tailwind CSS'],
+      skills: ['React / Vite', 'TypeScript', 'Tailwind CSS'],
     },
   ];
 
