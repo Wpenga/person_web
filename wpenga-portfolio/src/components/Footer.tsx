@@ -13,7 +13,7 @@ export default function Footer() {
               无论是嵌入式系统设计还是现代 Web 应用，我都能为您提供专业支持。
             </p>
             <a
-              href="mailto:wpenga@example.com"
+              href="mailto:wzpenga@163.com"
               className="btn btn-primary inline-flex items-center gap-2"
             >
               发送邮件
@@ -36,7 +36,7 @@ export default function Footer() {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:wpenga@example.com"
+              href="mailto:wzpenga@163.com"
               className="text-[#A0A0C0] hover:text-[#00FFFF] transition-colors p-3 bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.1)] rounded-xl hover:border-[#00FFFF]"
             >
               <Mail size={24} />
