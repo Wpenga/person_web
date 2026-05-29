@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: 'Wpenga | 个人作品集 - 全栈开发 & 嵌入式专家',
   description: 'Wpenga 的个人作品集，展示嵌入式开发、AI集成应用及全栈开发项目。',
   keywords: ['全栈开发', '嵌入式', 'ESP32', 'React', 'AI集成', 'TypeScript'],
+  icons: {
+    icon: '/icons8-malio-50.svg',
+  },
 };
 
 export default function RootLayout({
