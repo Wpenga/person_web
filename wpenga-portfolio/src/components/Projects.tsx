@@ -17,7 +17,7 @@ const projects: Project[] = [
   {
     title: 'JY1560串口屏网络状态显示系统',
     description: '完整的上下位机架构系统，实现路由器网络模式、电量、充电状态的实时监控与串口屏显示。',
-    image: '/esp32_monitor_preview.png',
+    image: '/JY1560.png',
     tags: ['Python', 'TJC Serial', 'Embedded'],
     githubUrl: 'https://github.com/Wpenga/router_and_input/tree/develop',
     githubLabel: '上位机 · Python',
@@ -34,7 +34,7 @@ const projects: Project[] = [
   {
     title: 'S327 ESP32-S3温湿度采集系统',
     description: '基于ESP32-S3的多节点温湿度采集系统，通过RS485总线获取传感器数据并更新到串口屏。',
-    image: '/esp32_monitor_preview.png',
+    image: '/S327.png',
     tags: ['ESP32', 'RS485', 'Modbus'],
     githubUrl: 'https://github.com/Wpenga/S318_Signal_Code_template/tree/S327-003',
     githubLabel: '上位机 · ESP32',
